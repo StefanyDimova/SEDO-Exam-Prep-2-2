@@ -1,10 +1,10 @@
 name: Build and test House Renting
 
 on:
-  pull_request:
+  push:
     branches: 
-     - develop
-     - feature
+     - 'develop'
+     - 'feature'
 
 jobs:
   build:
